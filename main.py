@@ -9,6 +9,7 @@ import pymongo
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 from io import BytesIO
 from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
+
 from PyQt5.QtGui import QIcon
 from PyQt5 import QtCore, uic
 from Levenshtein import distance
